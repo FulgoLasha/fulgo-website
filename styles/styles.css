@@ -1,5 +1,10 @@
 
-.profile-picture {
+@font-face {
+  font-family: 'myfont';
+  src: url(Hack-Regular.ttf);
+}
+
+.picture {
   width: 400px;
 
   position: fixed;
@@ -8,20 +13,36 @@
 }
 
 .header {
-  height: 130px;
+  height: 120px;
 
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   right: 0;
-  z-index: 1;
+  z-index: 0;
 
   background-image: linear-gradient(to right, rgb(0, 3, 29) , rgb(1, 57, 59));
 
 }
 
+.button {
+
+  font-family: 'myFont' ;
+  color:#16c0a9;
+  font-size: 12px;
+  text-align: left;
+  cursor: pointer;
+  transition: color  0.15s;
+
+  }
+
+.button:hover
+{
+
+color: #3ce7d0;
+}
 
