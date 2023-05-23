@@ -1,0 +1,18 @@
+.header {
+    height: 120px;
+  
+
+    
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 0;
+    box-sizing: border-box;
+    background-image: linear-gradient(to right, rgb(0, 3, 29) , rgb(1, 57, 59));
+  
+}
+
+
+
+  
